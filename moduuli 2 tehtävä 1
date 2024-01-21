@@ -1,0 +1,3 @@
+#tehtävä 2 kohta 1 
+käyttäjä = input("mikä sinun nimesi on? ") 
+print("hyvää päivää " + käyttäjä+"!") 
