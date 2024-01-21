@@ -1,0 +1,13 @@
+#tehtävä 2 kohta 4 
+luku_1 = float(input("Syötä ensinmäinen kokonaisluku: ")) 
+luku_2 = float(input("Syötä toinen kokonaisluku: ")) 
+luku_3 = float(input("Syötä kolmas kokonaisluku: ")) 
+summa = luku_1 + luku_2 + luku_3 
+summa_str = str(summa) 
+print("Antamasien kokonaislukujen summa on: " + summa_str) 
+kerto = luku_1 * luku_2 * luku_3 
+kerto_str = str(kerto) 
+print("Antamasien lukujen tulo on: " + kerto_str) 
+keskiarvo = summa / 3 
+keskiarvo_str = str(keskiarvo) 
+print("Antamasien kokonaislukujen keskiarvo on: " +keskiarvo_str)
