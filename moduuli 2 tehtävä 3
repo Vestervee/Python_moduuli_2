@@ -1,0 +1,7 @@
+#tehtävä 2 kohta 3 
+kanta = float(input("mikä on suorakulmion kanta?")) 
+korkeus = float(input("mikä on suorakulmion korkeus?")) 
+pinta = (kanta * korkeus) 
+piiri = ((kanta *2) + (korkeus *2)) 
+print(f"Suorakulmion pinta-ala on: {pinta}") 
+print(f"Suorakulmion piiri on: {piiri}")
