@@ -1,0 +1,15 @@
+#tehtävä 2 kohta 5 
+luoti = 13.3 
+naula = 13.3 * 32 
+leiviskä = 13.3 * 32 * 20 
+leiviskä_massa = leiviskä * float(input("Anna leiviskät: ")) 
+naula_massa = naula * float(input("anna naulat: ")) 
+luoti_massa = luoti * float(input("anna luodit: ")) 
+yhtenäis_massa = leiviskä_massa + naula_massa + luoti_massa 
+#muutetaan grammat kiloiksi ja ylijääviksi grammoiksi 
+kilot = yhtenäis_massa // 1000 
+jäävät_grammat = yhtenäis_massa % 1000 
+kilot_str = str(kilot) 
+jäävät_grammat_str = str(jäävät_grammat) 
+print("Massa nykymittojen mukaan on:") 
+print(kilot_str + "kg " + "ja " + jäävät_grammat_str +"g")
